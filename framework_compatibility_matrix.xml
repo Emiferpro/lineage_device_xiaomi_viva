@@ -1,4 +1,11 @@
 <compatibility-matrix version="4.0" type="framework">
+    <hal format="aidl" optional="true">
+        <name>android.hardware.vibrator</name>
+        <interface>
+          <name>IVibrator</name>
+          <instance>vibratorfeature</instance>
+        </interface>
+    </hal>
     <hal format="hidl" optional="true">
         <name>vendor.microtrust.hardware.thh</name>
         <transport>hwbinder</transport>
